@@ -1,9 +1,5 @@
 # PBEasy (ppb, for PivatePasteBin) - PrivateBin Terminal Helper Script
 
-**Mirrors:**
-- https://git.envs.net/dan/pbeasy
-- https://github.com/dan-envs/pbeasy
-
 PBEasy (`ppb`) is a Bash script that streamlines the process of creating,
 uploading, and commenting on [PrivateBin](https://privatebin.info/)
 pastes directly from your terminal. It provides an interactive interface
@@ -11,10 +7,10 @@ for replying to comments, supports attachments, and integrates with your
 preferred text editor.
 
 **PBEasy Paste Selector:**
-![ppb Paste Selector](https://dan.envs.net/images/Screenshots/ppb-paste-select.jpg)
+![ppb Paste Selector](images/ppb-paste-select.jpg)
 
 **PBEasy Comment Chooser:**
-![ppb Comment Chooser](https://dan.envs.net/images/Screenshots/ppb-1.jpg)
+![ppb Comment Chooser](images/ppb-1.jpg)
 
 ---
 
@@ -74,10 +70,9 @@ See the plugin file for more details and usage instructions.
 
 ## Dependencies
 
-Make sure the following tools are installed (it seems all of them are available
-on envs):
+Make sure the following tools are installed:
 
-- [`pbcli`](https://github.com/Mydayyy/pbcli) (PrivateBin CLI client written in rust, installed on envs)
+- [`pbcli`](https://github.com/Mydayyy/pbcli) (PrivateBin CLI client written in rust)
 - [`jq`](https://jqlang.org/) (JSON processor)
 - [`dialog`](https://invisible-island.net/dialog/) (terminal UI)
 - [`xclip`](https://github.com/astrand/xclip) (clipboard utility)
@@ -211,10 +206,9 @@ Other options (like `--comment-as=<name>`) are read from your `pbcli` config fil
 
 ## Use Issue Tracker
 
-If you have any problems with `ppb`, use one of the Issue trackers:
+If you have any problems with `ppb`, use the Issue tracker:
 
-- https://git.envs.net/dan/pbeasy/issues
-- https://github.com/dan-envs/pbeasy/issues
+- https://github.com/redterminal-org/pbeasy/issues
 
 ---
 
